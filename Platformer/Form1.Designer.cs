@@ -35,9 +35,10 @@
             // 
             // ButtonStart
             // 
-            this.ButtonStart.Location = new System.Drawing.Point(100, 95);
+            this.ButtonStart.Location = new System.Drawing.Point(67, 62);
+            this.ButtonStart.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ButtonStart.Name = "ButtonStart";
-            this.ButtonStart.Size = new System.Drawing.Size(75, 30);
+            this.ButtonStart.Size = new System.Drawing.Size(50, 19);
             this.ButtonStart.TabIndex = 0;
             this.ButtonStart.Text = "Start";
             this.ButtonStart.UseVisualStyleBackColor = true;
@@ -45,9 +46,10 @@
             // 
             // ButtonQuit
             // 
-            this.ButtonQuit.Location = new System.Drawing.Point(100, 144);
+            this.ButtonQuit.Location = new System.Drawing.Point(67, 94);
+            this.ButtonQuit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ButtonQuit.Name = "ButtonQuit";
-            this.ButtonQuit.Size = new System.Drawing.Size(75, 37);
+            this.ButtonQuit.Size = new System.Drawing.Size(50, 24);
             this.ButtonQuit.TabIndex = 1;
             this.ButtonQuit.Text = "Quit";
             this.ButtonQuit.UseVisualStyleBackColor = true;
@@ -57,9 +59,10 @@
             // 
             this.FullscreenCheckBox.Appearance = System.Windows.Forms.Appearance.Button;
             this.FullscreenCheckBox.AutoSize = true;
-            this.FullscreenCheckBox.Location = new System.Drawing.Point(100, 197);
+            this.FullscreenCheckBox.Location = new System.Drawing.Point(67, 128);
+            this.FullscreenCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.FullscreenCheckBox.Name = "FullscreenCheckBox";
-            this.FullscreenCheckBox.Size = new System.Drawing.Size(92, 30);
+            this.FullscreenCheckBox.Size = new System.Drawing.Size(65, 23);
             this.FullscreenCheckBox.TabIndex = 2;
             this.FullscreenCheckBox.Text = "Fullscreen";
             this.FullscreenCheckBox.UseVisualStyleBackColor = true;
@@ -67,14 +70,16 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(278, 244);
+            this.ClientSize = new System.Drawing.Size(185, 159);
             this.Controls.Add(this.FullscreenCheckBox);
             this.Controls.Add(this.ButtonQuit);
             this.Controls.Add(this.ButtonStart);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Platformer";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

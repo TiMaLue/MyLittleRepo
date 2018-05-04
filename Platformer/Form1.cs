@@ -45,5 +45,10 @@ namespace Platformer
             fullscreen = !fullscreen;
             FullscreenCheckBox.Checked = fullscreen;
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -17,18 +17,18 @@ namespace Platformer
             InitializeComponent();
             if (fullscreen)
             {
-                int width, height;
-                width = (int) System.Windows.SystemParameters.FullPrimaryScreenWidth;
-                height = (int) System.Windows.SystemParameters.FullPrimaryScreenHeight;
-                UpdateBounds(0, 0, width, height);
-
                 FormBorderStyle = FormBorderStyle.None;
-                MessageBox.Show("Width:" + width + " Height:" + height);
+                WindowState = FormWindowState.Maximized;
             }
             else
             {
                 FormBorderStyle = FormBorderStyle.Sizable;
             }
+        }
+
+        private void Gameframe_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
