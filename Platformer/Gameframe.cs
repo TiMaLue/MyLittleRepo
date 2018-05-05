@@ -24,6 +24,8 @@ namespace Platformer
             {
                 FormBorderStyle = FormBorderStyle.Sizable;
             }
+            Game game = new Game(GameBox);
+            game.runGame();
         }
 
         private void Gameframe_Load(object sender, EventArgs e)
