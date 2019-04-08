@@ -24,13 +24,15 @@ namespace Platformer
             this.loadWorld();
             //while (!paused)
             //{
-
+                
             //}
         }
 
         private void loadWorld()
         {
             canvas.Image = Image.FromFile("../../resources/Green.png");
+            //canvas.Image.SelectActiveFrame();
         }
+
     }
 }
